@@ -1,0 +1,1 @@
+git rm --cached <file> will completely remove the file's contents from the index. This means that on commit the file will be removed from the HEAD commit. (If the file was only added to the index and not yet tracked this is a "no-op".)
